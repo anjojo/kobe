@@ -1,0 +1,153 @@
+/* Header */
+#header {
+  height: 470px;
+  background-color: #053742;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 20px 50px 50px;
+}
+
+h1 em {
+  font-family: 'Sacramento', cursive;
+}
+
+
+.profile {
+  position: relative;
+  z-index: 1;
+  width: 350px;
+  border: 10px solid #fff8d9;
+}
+
+/* Body */
+#body {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background-color: #E8F0F2;
+  text-align: left;
+}
+
+#body hr{
+  border: 1px solid #bb371a;
+}
+
+#body .content-container {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.giphy-embed {
+  float: right;
+  border: 7px solid #bb371a;
+}
+
+.display-text {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.meaning-text {
+  padding-right: 470px;
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+/* Video Section */
+#video {
+  background-color: #bb371a;
+  padding: 50px 50px 50px;
+  text-align: center;
+}
+
+#video .container .display-text {
+  text-align: left;
+}
+
+.video-greeting {
+  border: 10px solid #fff8d9;
+  width: 50%;
+  height: 100%;
+}
+
+#video .container h3 {
+  font-family: 'Sacramento', cursive;
+  color:  #fff8d9;
+}
+
+
+/* Playlist Section */
+#playlist {
+  background-color: #fff8d9;
+  padding: 50px;
+  text-align: center;
+
+}
+
+#playlist .container span {
+  text-align: left;
+}
+
+#playlist hr{
+  border: 1px solid #bb371a;
+}
+
+.spotify-poster {
+  width: 250px;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #161616;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+}
+
+#footer h3 {
+  padding-top: 30px;
+}
+
+
+/* Change Screen Size */
+
+@media (max-width: 768px) {
+  /* Header Section */
+  h1 em {
+    font-size: 4.5rem;
+  }
+
+  /* Body Section */
+  #body {
+    padding-top: 250px;
+    padding-bottom: 50px;
+    background-color: #fff8d9;
+    text-align: center;
+  }
+
+  #body .content-container {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  .giphy-embed {
+    float: none;
+    width: 50%;
+    height: 50%;
+  }
+
+  .meaning-text {
+    padding-right: 0px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  /* Video Section */
+  .video-greeting {
+    border: 10px solid #fff8d9;
+    width: 90%;
+    height: 100%;
+  }
+
+
+}
